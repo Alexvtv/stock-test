@@ -38,7 +38,7 @@ export const Wallet = () => {
                                     ? <span className={styles.positive}>+{percent.toFixed(2)}%</span>
                                     : <span className={styles.negative}>{percent.toFixed(2)}%</span>}
                         </span>
-                            <span className={styles.cost}>Стоимость:
+                            <span className={styles.cost}>Стоимость: 
                                 <span>{(qty * price).toFixed(2)}$</span>
                             </span>
                             <span className={styles.qty}>В портфеле: <span>{qty}</span></span>
